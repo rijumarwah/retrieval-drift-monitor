@@ -2,3 +2,4 @@ sentence-transformers==3.0.1
 weaviate-client==3.26.2
 fastapi==0.111.0
 uvicorn==0.30.1
+wikipedia==1.4.0
