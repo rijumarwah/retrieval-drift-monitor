@@ -10,7 +10,6 @@ import wikipedia
 from rag_pipeline.embedder import Embedder
 from rag_pipeline.indexer import Indexer, get_weaviate_client
 
-
 ARTICLES = [
     "Python (programming language)",
     "Machine learning",

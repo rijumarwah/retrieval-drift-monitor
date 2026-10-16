@@ -4,7 +4,7 @@ from rag_pipeline.embedder import Embedder
 
 CLASS_NAME = "DocumentChunk"
 
-def get_weaviate_client(url: str = "http://localhost:8000") -> weaviate.Client:
+def get_weaviate_client(url: str = "http://localhost:8080") -> weaviate.Client:
     """
     Returns a connected weaviate client
     Separated from the Indexer class so it can be reused by query layer
@@ -110,7 +110,7 @@ class Indexer:
             for i, (chunk, vector) in enumerate(zip(chunks, vectors)):
                 chunk_id = str(uuid.uuid4())
 
-                batch.add_object(
+                batch.add_data_object(
                     class_name = CLASS_NAME,
                     data_object = {
                         "chunk_id": chunk_id,

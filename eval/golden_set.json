@@ -1,0 +1,72 @@
+[
+  {
+    "query_id": "q001",
+    "question": "What is the capital of France?",
+    "expected_answer": "Paris",
+    "correct_chunk_id": "8cba51c9-6115-4881-9f35-63ebf44fb798",
+    "source": "Paris"
+  },
+  {
+    "query_id": "q002",
+    "question": "What is the population of Paris?",
+    "expected_answer": "2.04 million",
+    "correct_chunk_id": "8cba51c9-6115-4881-9f35-63ebf44fb798",
+    "source": "Paris"
+  },
+  {
+    "query_id": "q003",
+    "question": "Who created the Python programming language?",
+    "expected_answer": "Guido van Rossum",
+    "correct_chunk_id": "827d123e-68bf-4e92-9e05-8e4e6928bb8f",
+    "source": "Python (programming language)"
+  },
+  {
+    "query_id": "q004",
+    "question": "What year was Python first released?",
+    "expected_answer": "1991",
+    "correct_chunk_id": "827d123e-68bf-4e92-9e05-8e4e6928bb8f",
+    "source": "Python (programming language)"
+  },
+  {
+    "query_id": "q005",
+    "question": "What is machine learning?",
+    "expected_answer": "A field of study in artificial intelligence concerned with statistical algorithms that can learn from data",
+    "correct_chunk_id": "a1e8f982-2574-460f-ad18-f35f75747ff0",
+    "source": "Machine learning"
+  },
+  {
+    "query_id": "q006",
+    "question": "What is the Solar System?",
+    "expected_answer": "The gravitationally bound system of the Sun and the masses that orbit it",
+    "correct_chunk_id": "96769cbc-58ff-43b9-80dc-5ba0ea64bd1f",
+    "source": "Solar System"
+  },
+  {
+    "query_id": "q007",
+    "question": "How many planets are in the Solar System?",
+    "expected_answer": "Eight",
+    "correct_chunk_id": "96769cbc-58ff-43b9-80dc-5ba0ea64bd1f",
+    "source": "Solar System"
+  },
+  {
+    "query_id": "q008",
+    "question": "When did World War II begin?",
+    "expected_answer": "1 September 1939",
+    "correct_chunk_id": "bf0fc6ca-999b-4687-8dd6-670d094c7ed0",
+    "source": "World War II"
+  },
+  {
+    "query_id": "q009",
+    "question": "Which countries were involved in World War II?",
+    "expected_answer": "The Allies and the Axis powers",
+    "correct_chunk_id": "e2b9914c-c2e8-485e-a3ef-824126a88a94",
+    "source": "World War II"
+  },
+  {
+    "query_id": "q010",
+    "question": "What country did Germany invade to start World War II?",
+    "expected_answer": "Poland",
+    "correct_chunk_id": "bf0fc6ca-999b-4687-8dd6-670d094c7ed0",
+    "source": "World War II"
+  }
+]
