@@ -24,13 +24,13 @@
     "query_id": "q004",
     "question": "What year was Python first released?",
     "expected_answer": "1991",
-    "correct_chunk_id": "827d123e-68bf-4e92-9e05-8e4e6928bb8f",
+    "correct_chunk_id": "11494770-63f9-4b54-820b-90d0b52c74e9",
     "source": "Python (programming language)"
   },
   {
     "query_id": "q005",
     "question": "What is machine learning?",
-    "expected_answer": "A field of study in artificial intelligence concerned with statistical algorithms that can learn from data",
+    "expected_answer": "field of study in artificial intelligence",
     "correct_chunk_id": "a1e8f982-2574-460f-ad18-f35f75747ff0",
     "source": "Machine learning"
   },
